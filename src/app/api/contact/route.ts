@@ -38,7 +38,7 @@ export async function POST(request: Request) {
     },
   });
 
-  const mailOptions = {
+  const adminMailOptions = {
     from: `${name} <${email}>`,
     to: recipient,
     subject: `New portfolio query from ${name}`,
@@ -52,8 +52,22 @@ export async function POST(request: Request) {
     `,
   };
 
+  const confirmationMailOptions = {
+    from: `${siteConfig.name} <${siteConfig.email}>`,
+    to: email,
+    subject: "Thank you for reaching out",
+    text: `Hi ${name},\n\nThank you for reaching out and getting in touch with me. I’ve received your message successfully and will review it shortly.\n\nI’ll get back to you as soon as possible.\n\nBest regards,\n${siteConfig.name}`,
+    html: `
+      <p>Hi ${name},</p>
+      <p>Thank you for reaching out and getting in touch with me. I’ve received your message successfully and will review it shortly.</p>
+      <p>I’ll get back to you as soon as possible.</p>
+      <p>Best regards,<br />${siteConfig.name}</p>
+    `,
+  };
+
   try {
-    await transporter.sendMail(mailOptions);
+    await transporter.sendMail(adminMailOptions);
+    await transporter.sendMail(confirmationMailOptions);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Contact form send error:", error);
