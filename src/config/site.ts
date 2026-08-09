@@ -3,10 +3,10 @@
  */
 export const siteConfig = {
   name: "Umar Shahid",
-  title: "Umar Shahid | Java Developer | Backend & Full Stack",
+  title: "Umar Shahid |Full Stack Engineer | Java • Spring Boot • Next.js",
   description:
-    "Java Developer specializing in Spring Boot, REST APIs, enterprise integrations, and full-stack web development. Full-Stack Developer. Backend Specialist. Problem Solver..",
-  url: "https://your-portfolio-url.com", // TODO: Replace with your deployed URL
+    "Full Stack Engineer specializing in Spring Boot, REST APIs, enterprise integrations, and full-stack web development. Full-Stack Developer. Backend Specialist. Problem Solver..",
+  url: "https://portfolio-pi-three-4za0hnej47.vercel.app/", // TODO: Replace with your deployed URL
   ogImage: "/og-image.png", // TODO: Add your Open Graph image
 
   email: "umarshahid7558@gmail.com", // TODO: Replace with your email
