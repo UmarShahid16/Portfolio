@@ -12,10 +12,10 @@ export const siteConfig = {
   email: "umarshahid7558@gmail.com", // TODO: Replace with your email
   linkedin: "https://www.linkedin.com/in/umar-shahid-682536223/", // TODO: Replace with your LinkedIn
   github: "https://github.com/UmarShahid16", // TODO: Replace with your GitHub
-  upwork: "https://upwork.com/freelancers/~your-profile", // TODO: Replace with your Upwork
+  upwork: "https://www.upwork.com/freelancers/~014e3622e53b3fa690", // TODO: Replace with your Upwork
 
   availability: "Available for freelance & remote opportunities",
-  role: "Java Developer | Backend & Full Stack",
+  role: "Full Stack Engineer | Java • Spring Boot • Next.js",
 } as const;
 
 export const navLinks = [

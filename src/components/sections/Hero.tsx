@@ -42,7 +42,7 @@ export function Hero() {
           </div>
 
           <h1 className="text-4xl font-bold leading-[1.1] tracking-tight text-foreground md:text-5xl lg:text-[3.25rem]">
-            Full-Stack Developer{" "}
+            Full-Stack Engineer{" "}
             <span className="bg-gradient-to-r from-accent via-violet-400 to-accent bg-clip-text text-transparent">
               Backend Specialist
             </span>{" "}
