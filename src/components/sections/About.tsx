@@ -18,19 +18,17 @@ export function About() {
           <ScrollAnimation className="lg:col-span-3" delay={0.1}>
             <div className="space-y-4 text-base leading-relaxed text-muted md:text-lg">
               <p>
-                I&apos;m a Java Developer with 3+ years of professional
-                experience building reliable backend systems, REST APIs,
-                enterprise integrations, and modern web applications.
+                I'm a Full Stack Engineer with 3+ years of professional experience building scalable web applications,
+                 reliable backend systems, REST APIs, and enterprise integrations.
               </p>
               <p>
-                My core expertise is Java and Spring Boot, with additional
-                experience in React, Next.js, SQL databases, WSO2 integration
-                technologies, API management, authentication, and distributed
-                systems.
+                I work across the full application stack, from building responsive and modern user interfaces with React and Next.js to developing robust backend services using Java and Spring Boot.
+                 I also have experience with SQL databases, WSO2 integration technologies, API management, authentication, and distributed systems.
               </p>
               <p>
-                I focus on writing clean, maintainable code and designing
-                solutions that are scalable, secure, and easy to maintain.
+                I focus on building clean, maintainable, and scalable solutions with a strong emphasis on performance, security, and user experience.
+                 Whether it's a complete web application, a complex backend system, or integrating multiple services and APIs, I enjoy turning business requirements
+                  into reliable, production-ready software.
               </p>
             </div>
           </ScrollAnimation>
