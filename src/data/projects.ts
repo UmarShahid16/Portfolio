@@ -99,6 +99,37 @@ export const projects: Project[] = [
     gradient: "from-emerald-600/20 via-teal-600/10 to-slate-900",
     accentColor: "text-emerald-400",
   },
+  {
+    id: "myvoucher-ecommerce-platform",
+    name: "MyVoucher Ecommerce Platform",
+    description:
+      "A digital voucher and payment platform built to simplify voucher purchasing, transaction processing, and payment management through a secure and reliable platform. The system supports multiple payment methods and provides streamlined workflows for voucher transactions, commissions, exchange rates, and settlements.",
+    problemSolved:
+      "Managing voucher transactions, payment processing, commissions, and settlements across different systems can become complex and difficult to maintain. MyVoucher.io centralizes these operations into one platform, providing a seamless payment experience while simplifying transaction and financial management.",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "REST APIs",
+      "Payment Gateway Integration",
+      "Bank Alfalah",
+      "JazzCash",
+    ],
+    features: [
+      "Digital voucher management",
+      "JazzCash payment gateway integration",
+      "Bank Alfalah payment gateway integration",
+      "Voucher purchasing and transaction processing",
+      "Transaction and payment handling",
+      "REST API integration",
+      "Scalable full-stack architecture",
+    ],
+    githubUrl: "", // TODO
+    liveDemoUrl: "",
+    gradient: "from-emerald-600/20 via-teal-600/10 to-slate-900",
+    accentColor: "text-emerald-400",
+  },
   // {
   //   id: "enterprise-api-integration",
   //   name: "Enterprise API Integration Platform",
