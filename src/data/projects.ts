@@ -95,7 +95,7 @@ export const projects: Project[] = [
       "Scalable full-stack architecture",
     ],
     githubUrl: "https://github.com/UmarShahid16/K-Pop_Website", // TODO
-    liveDemoUrl: "https://mokup-zeta.vercel.app/",
+    liveDemoUrl: "https://k-pop-website.vercel.app/",
     gradient: "from-emerald-600/20 via-teal-600/10 to-slate-900",
     accentColor: "text-emerald-400",
   },
