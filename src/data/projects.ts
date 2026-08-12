@@ -31,7 +31,7 @@ export const projects: Project[] = [
       "Responsive UI",
     ],
     githubUrl: "https://github.com/UmarShahid16/attendace_management_system-Backend", // TODO
-    liveDemoUrl: "https://your-demo-url.com", // TODO
+    liveDemoUrl: "https://attendace-management-system-fronten.vercel.app/login", // TODO
     gradient: "from-blue-600/20 via-indigo-600/10 to-slate-900",
     accentColor: "text-blue-400",
   },
